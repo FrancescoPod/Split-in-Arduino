@@ -37,8 +37,9 @@ void loop() {
       for(int i = 0; i<(sizeof(commands)/sizeof(commands[0]));i++){
         Serial.print("OUT =   ");
         Serial.println(commands[i]);
-      }  
-  }
+       
+      }
+        }
 
 
 }
@@ -111,4 +112,6 @@ void split(String args[], String delim, int tot, String root, String output[]){
   p =0;
   
 }
+     
+
 
